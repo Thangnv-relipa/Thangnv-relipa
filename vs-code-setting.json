@@ -1,0 +1,150 @@
+{
+  //workbench
+  "workbench.startupEditor": "none",
+  //editor
+  "editor.fontFamily": "FiraCode Nerd Font",
+  "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.snippetSuggestions": "top",
+  "editor.cursorStyle": "line-thin",
+  "editor.minimap.enabled": false,
+  "editor.formatOnType": true,
+  "editor.fontWeight": "400",
+  "editor.wordWrap": "on",
+  //javascript
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  //terminal
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontWeight": "400",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": [
+        "-l"
+      ],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": [
+        "-l"
+      ]
+    },
+    "fish": {
+      "path": "fish",
+      "args": [
+        "-l"
+      ]
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  //systems
+  "auto-close-tag.fullMode": true,
+  "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+  //auto import
+  "autoimport.doubleQuotes": false,
+  "emmet.showSuggestionsAsSnippets": true,
+  "gitlens.defaultDateLocale": null,
+  "gitlens.defaultDateFormat": null,
+  "editor.renderWhitespace": "trailing",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "auto-close-tag.excludedTags": [
+    "area",
+    "base",
+    "br",
+    "col",
+    "command",
+    "embed",
+    "hr",
+    "img",
+    "input",
+    "keygen",
+    "link",
+    "meta",
+    "param",
+    "source",
+    "track",
+    "wbr",
+    "string",
+    "boolean"
+  ],
+  "editor.inlineSuggest.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.codeLensFontFamily": "FiraCode Nerd Font",
+  "editor.codeLensFontSize": 12,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.smoothScrolling": true,
+  "editor.linkedEditing": true,
+  "explorer.confirmDelete": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.accessibilityPageSize": 12,
+  "git.autofetch": true,
+  "react-native-tools.showUserTips": false,
+  "editor.tabSize": 1,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.largeFileOptimizations": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "git.openRepositoryInParentFolders": "never",
+  "eslint.timeBudget.onFixes": {
+    "warn": 3000,
+    "error": 6000
+  },
+  "eslint.options": {},
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.run": "onSave",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.ignoreRebaseWarning": true,
+  "git-graph.repository.commits.mute.mergeCommits": false,
+  "merge-conflict.codeLens.enabled": false,
+  "editor.multiCursorMergeOverlapping": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "terminal.integrated.env.osx": {},
+  "reactSnippets.settings.prettierEnabled": true,
+  "editor.accessibilitySupport": "off",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "redhat.telemetry.enabled": false,
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+  "workbench.productIconTheme": "macos-modern",
+  "workbench.iconTheme": "icons",
+  "workbench.colorTheme": "MacOS Modern Dark - Ventura Xcode",
+  "editor.fontSize": 12,
+  "workbench.editor.empty.hint": "hidden",
+  "files.eol": "\n",
+  "vscodeGoogleTranslate.preferredLanguage": "Vietnamese",
+  "diffEditor.codeLens": true,
+}
